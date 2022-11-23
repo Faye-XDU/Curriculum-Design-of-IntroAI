@@ -1,7 +1,13 @@
-# iWildCam_2019_FGVC6
-Top 3% (7/336)  solution for [iWildCam 2019](https://www.kaggle.com/c/iwildcam-2019-fgvc6/overview) competition (Categorize animals in the wild), which is as part of the  [FGVC6](https://sites.google.com/view/fgvc6/home) workshop at [CVPR 2019](http://cvpr2019.thecvf.com/)
+# Curriculum-Design-of-IntroAI
 
-Thanks to my team members!
+## Categorize animals
+solution for [iWildCam 2019](https://www.kaggle.com/c/iwildcam-2019-fgvc6/overview) competition (Categorize animals in the wild), which is as part of the  [FGVC6](https://sites.google.com/view/fgvc6/home) workshop at [CVPR 2019](http://cvpr2019.thecvf.com/)
+
+I got the best single model prediction result (f1=0.319760 in private LB) with the following configuration:
+
+model: efficientnet_b0 (imagenet pretrained)
+
+Reference Code [iWildCam_2019_FGVC6](https://github.com/Walleclipse/iWildCam_2019_FGVC6)
 
 Please view the detailed report [Efficient Method for Categorize Animals in the Wild](https://arxiv.org/ftp/arxiv/papers/1907/1907.13037.pdf).
 ### Requirements
@@ -34,9 +40,5 @@ python infer.py
 ```
 
 ### About the Method
-
-I got the best single model prediction result (f1=0.224 in private LB) with the following configuration:
-
-model: efficientnet_b0 (imagenet pretrained)
 
 image augmentation: traditional image augmentation + CLAHE + gray scale + cutout + mixup + label smoothing
