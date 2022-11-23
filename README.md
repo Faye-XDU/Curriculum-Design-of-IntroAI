@@ -1,4 +1,5 @@
 # Curriculum-Design-of-IntroAI
+By Jiaqi Kang, Zhenhao Fu, Haotian Zheng.
 
 ## Categorize animals
 solution for [iWildCam 2019](https://www.kaggle.com/c/iwildcam-2019-fgvc6/overview) competition (Categorize animals in the wild), which is as part of the  [FGVC6](https://sites.google.com/view/fgvc6/home) workshop at [CVPR 2019](http://cvpr2019.thecvf.com/)
