@@ -11,8 +11,8 @@ Reference Code [iWildCam_2019_FGVC6](https://github.com/Walleclipse/iWildCam_201
 
 Please view the detailed report [Efficient Method for Categorize Animals in the Wild](https://arxiv.org/ftp/arxiv/papers/1907/1907.13037.pdf).
 ### Requirements
-* Python 3.6
-* pytorch 1.1.0
+* Python 3.8
+* pytorch 1.11.0
 
 ### About the Code
 
