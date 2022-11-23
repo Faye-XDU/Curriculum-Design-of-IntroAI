@@ -7,6 +7,8 @@ I got the best single model prediction result (f1=0.319760 in private LB) with t
 
 model: efficientnet_b0 (imagenet pretrained)
 
+Please check the results and checkpoints in (https://drive.google.com/drive/folders/183EmUljX2IoZwQooH4bbtIWdH132SqPd?usp=share_link)
+
 Reference Code [iWildCam_2019_FGVC6](https://github.com/Walleclipse/iWildCam_2019_FGVC6)
 
 Please view the detailed report [Efficient Method for Categorize Animals in the Wild](https://arxiv.org/ftp/arxiv/papers/1907/1907.13037.pdf).
